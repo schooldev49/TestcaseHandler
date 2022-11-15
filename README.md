@@ -14,6 +14,6 @@
 
 > command line access through argc/argv
 
-> code cleanup
+> code cleanup ( I hate this string conc rn )
 
 </div>
