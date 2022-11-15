@@ -41,7 +41,7 @@ auto testCases = [](auto func, auto expected) {
       ss.str(std::string());
       ss << i.second;
       hi2 = ss.str();
-      return "Assertion failed at testcase #" +  std::to_string(passedTestcases) + " (Expected " + hi + " but got " + hi2 + ") Passed " + std::to_string(passedTestcases) + "/" + std::to_string(expected.size()) + " testcases."; 
+      return "Assertion failed at testcase #" +  std::to_string(passedTestcases) + " (Expected " + hi2 + " but got " + hi + ") Passed " + std::to_string(passedTestcases) + "/" + std::to_string(expected.size()) + " testcases."; 
     }
     passedTestcases++;
   }
